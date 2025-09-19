@@ -4,6 +4,8 @@
 // Kindly do not open the solutions before attempting the assignment.
 // Do not use simply if-conditionals to solve the problems.
 // You are expected to use loops, recursion, or any other method.
+// To run your testcases, use the following command in the terminal:
+// dart assignment.dart
 
 // Assignment 1: Reverse a String
 // Input: "hello" -> Output: "olleh"
