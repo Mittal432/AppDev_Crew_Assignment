@@ -75,6 +75,8 @@ int factorial(int n) {
 
 // Assignment 11: Promise chain
 // Task: Add 10 to num, then multiply by 2, then subtract 5
+// Do learn what asynchornous code is rather than just completing this function
+// Use this link: https://dart.dev/libraries/dart-async
 Future<int> asyncChain(int num) async {
   // step 1
   await Future.delayed(Duration(milliseconds: 100)); // we're simulating an async request
