@@ -9,8 +9,6 @@
 
 // Assignment 1: Reverse a String
 // Input: "hello" -> Output: "olleh"
-import 'dart:ffi';
-
 String reverseString(String str) {
   String result = "";
   for (int i = str.length - 1; i >= 0; i--) {
@@ -69,8 +67,8 @@ List<String> fizzBuzz(int n) {
   for (int i = 1; i <= n; i++) {
     String val = "";
     if (i % 3 == 0) val += "Fizz";
-    else if (i % 5 == 0) val += "Buzz";
-    else if (val.isEmpty) val = i.toString();
+    if (i % 5 == 0) val += "Buzz";
+    if (val.isEmpty) val = i.toString();
     result.add(val);
   }
   return result;
@@ -137,4 +135,14 @@ int? findFirstEven(List<int> arr) {
 int factorial(int n) {
   if (n <= 1) return 1;
   return n * factorial(n - 1);
+}
+
+// Assignment 11: Promise chain
+Future<int> asyncChain(int num) async {
+  int step1 = num + 10;
+  await Future.delayed(Duration(milliseconds: 100)); // we're simulating an async request
+  int step2 = step1 * 2;
+  await Future.delayed(Duration(milliseconds: 100));
+  int step3 = step2 - 5;
+  return step3;
 }

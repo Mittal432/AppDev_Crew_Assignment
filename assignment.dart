@@ -33,6 +33,7 @@ int sumEvenNumbers(List<int> arr) {
 }
 
 // Assignment 5: FizzBuzz
+// If a number is divisible by 3, replace it with "Fizz", if it is divisible by 5, replace it with "Buzz", and if it divisble by both 3 and 5, replace it with "FizzBuzz"
 // Input: 15
 // Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
 List<String> fizzBuzz(int n) {
@@ -71,3 +72,17 @@ int? findFirstEven(List<int> arr) {
 int factorial(int n) {
   return 0;
 }
+
+// Assignment 11: Promise chain
+// Task: Add 10 to num, then multiply by 2, then subtract 5
+Future<int> asyncChain(int num) async {
+  // step 1
+  await Future.delayed(Duration(milliseconds: 100)); // we're simulating an async request
+  // step 2
+  await Future.delayed(Duration(milliseconds: 100));
+  // step 3
+  return 0;
+}
+
+//part 1 end
+//part 2 - build a simple flutter app and give a guide to setup flutter sdk
