@@ -83,6 +83,3 @@ Future<int> asyncChain(int num) async {
   // step 3
   return 0;
 }
-
-//part 1 end
-//part 2 - build a simple flutter app and give a guide to setup flutter sdk
