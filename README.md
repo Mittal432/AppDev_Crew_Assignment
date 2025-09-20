@@ -3,11 +3,11 @@
 ## What is flutter?
 Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
-## 🎯 Objective
+## Objective
 Practice basic Flutter concepts by building small widgets and apps.  
 Each assignment is simple and focused on one feature.
 
-## 📚 Resources
+## Resources
 - Flutter is a framework written in Dart Language, so before we start developing in flutter we must learn how to code in Dart. (The dart assignment is there to help you get started)
 - [Dart Documentation](https://dart.dev/guides) - These are the official Dart Documentation.
 - [Video Tutorial](https://www.youtube.com/watch?v=0CTj3x6jgeY) -   Dart Tutorial by Mtech Viral. You can find many other Dart tutorials on Youtube, or any other free streaming site.
@@ -53,7 +53,7 @@ dependencies:
 
 ---
 
-### ✨ Bonus
+### Bonus
 - Combine **Assignment 2 (input)** and **Assignment 3 (list)**:  
   Let the user add new items to a list by typing in the `TextField`.
 
